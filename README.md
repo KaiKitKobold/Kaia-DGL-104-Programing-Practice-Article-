@@ -26,12 +26,12 @@ We will discuss these modifiers in more detail later in this article.
 ReturnType: ReturnType is the value that will be returned from the method using the return keyword; all data types, including void, can be a method's return type. A void in functions means they will not have a return value. Void is commonly used in helper methods such as user-defined (get() set() and print() methods, among many others. 
 Static represents that a method belongs to the main class and is not an object of that class; in principle, this means that static methods, especially in separate classes from the main, do not need an associated class object to call them, as seen in the example below. 
 And finally, parameter types. Parameters act as variables initialized outside the method; let us call this method with some numbers.
-
+```java
 additionMethod(2, 8); 
 This means that firstNum is equal to 2.0, and secondNum is equal to 8.0 due to passive type conversion inside our method if we have the following code inside:
 
   return (firstNum + secondNum); 
-  
+```
 Then, our method would return 10.0, which we could print to the screen using the following:
 Public static double additionMethod(double firstNum, double secondNum ) {
   return (firstNum + secondNum); 
