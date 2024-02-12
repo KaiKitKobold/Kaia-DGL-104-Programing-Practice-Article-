@@ -40,25 +40,26 @@ Public static double additionMethod(double firstNum, double secondNum ) {
   System.out.println(additionMethod(2, 8);
 // Output printed to the user is 10. 
 
-system. out.println(additionMethod(2, 8) returns 10.0 to the user's screen. As an example of println, it is an instance of the print-stream type, a public and static method of the System class. 
+system.out.println(additionMethod(2, 8) returns 10.0 to the user's screen. As an example of println, it is an instance of the print-stream type, a public and static method of the System class. 
 Now that we fully understand the basics of Methods, let us look at an example of a WET or (write everything twice) method with some obvious and less obvious examples:
-
-public static double additionmultiplicationMethod(double additionOne double multiOne, double multiTwo;) {
-  double firstMulti;
-  double secondMulti; 
-  double firstAddition;
-  double multiplicationResult; 
-  firstMulti = additionOne; 
-  secondMulti = additionTwo; 
-  additionOne = additionOne; 
-  multiplicationResult = additionOne + firstMulti * secondMulti 
-  return multiplicationResult; 
+```java 
+  public static double additionmultiplicationMethod(double additionOne double multiOne, double multiTwo;) {
+    double firstMulti;
+    double secondMulti; 
+    double firstAddition;
+    double multiplicationResult; 
+    firstMulti = additionOne; 
+    secondMulti = additionTwo; 
+    additionOne = additionOne; 
+    multiplicationResult = additionOne + firstMulti * secondMulti 
+    return multiplicationResult; 
 }
 // After main method declaration:
-  additionmultiplicationMethod(5, 2, 3);
-  // result = 20. 
+    additionmultiplicationMethod(5, 2, 3);
+  // result = 20.
+```
 Now, let us try to fix the apparent problems. Is it still WET?
-
+```java
 public static double additionmultiplicationMethod(double additionOne double multiOne, double multiTwo;) {
   double firstMulti = multiOne;
   double secondMulti = multiTwo;
@@ -67,13 +68,15 @@ public static double additionmultiplicationMethod(double additionOne double mult
 }
   // After multiplication and other results.
   // result = 20
-  
+```
 It is still WET since multiple factors repeat or are unnecessary in the code base. For example, we do not need the finalVariable since it stores the addition result calculated at that line. We do not need to separate the arithmetic into multiple calculations.
-Now, finally, let us make this method “DRY or (Do not Repeat Yourself)”: [2]
+Now, finally, let us make this method “DRY or (Do not Repeat Yourself)”: [[2]](#references)
 
+```java 
 public static double additionmultiplicationMethod(double additionOne double multiOne, double multiTwo;) {
   return (additionOne + (multiOne * multiTwo)); 
 }
+```
 
 As you can see, the method is much more concise and accessible to read when added to a much larger code base with multiple classes and functions. It is also quicker and more concise on the device's hardware since it does not need to allocate memory to the variables and return the following arithmetic. 
 
@@ -103,10 +106,11 @@ In Conclusion, organized Dry code is an important principle that affects the cod
 ## References
 
 [1]
-Refsnes Data. (n.d.). Java Methods. W3C Schools. Retrieved Febuary 10, 2024, from https://www.w3schools.com/java/java_methods.asp
+Refsnes Data. (n.d.). Java Methods. W3C Schools. Retrieved Febuary 10, 2024, from [WC3Schools: Java Methods](https://www.w3schools.com/java/java_methods.asp
+) or https://www.w3schools.com/java/java_methods.asp
 
 [2]
-Don't repeat yourself. (2024, January 9). In Wikipedia. 
+Don't repeat yourself. (2024, January 9). In Wikipedia. [Wikipedia Don't Repeat Yourself:](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) or  
 https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 
