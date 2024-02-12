@@ -100,9 +100,10 @@ In Conclusion, organized Dry code is an important principle that affects the cod
 -Written by Kaia Kitching while using Grammarly Premium
 
 
-References and Learning throughout the entire project.:
+References and Learning throughout the entire project:
+
 [1]
-Refsnes Data. (n.d.). Java Methods. W3C Schools. Retrieved Febuary 10, 2024, from https://www.w3schools.com/java/java_methods.asp
+Refsnes Data. (n.d.). Java Methods. W3C Schools. Retrieved Febuary 10, 2024, from [WC3 Schools: Java Methods:](https://www.w3schools.com/java/java_methods.asp)
 
 [2]
 Don't repeat yourself. (2024, January 9). In Wikipedia. 
