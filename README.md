@@ -15,7 +15,7 @@ Over Engineering, on the surface, it seems like a simple thing to avoid, "Oh, I 
 Before fully exploring over-engineering, we must research methods and their "functionality" in Java. 
 
 Methods:
-Methods are "A | block of code which only runs when called." [[1]](#refrences)  (Refsnes Data, n.d.) Functions, alongside their sister series classes, make up the backbone of modern applications. 
+Methods are "A | block of code which only runs when called." [[1]](#references)  (Refsnes Data, n.d.) Functions, alongside their sister series classes, make up the backbone of modern applications. 
 The syntax is as follows:
 Modifier returnType method name (parameter list) {}
 Example: Public static double additionMethod(double firstNum, double secondNum) {
@@ -100,7 +100,7 @@ In Conclusion, organized Dry code is an important principle that affects the cod
 -Written by Kaia Kitching while using Grammarly Premium
 
 
-## References:
+## References
 
 [1]
 Refsnes Data. (n.d.). Java Methods. W3C Schools. Retrieved Febuary 10, 2024, from https://www.w3schools.com/java/java_methods.asp
